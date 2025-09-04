@@ -3,14 +3,13 @@ const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
 const suggestionsContainer = document.getElementById("suggestions");
 const backgroundVideo = document.getElementById("background-video");
-require('dotenv').config();
-const weatherApiKey = process.env.WEATHER_API_KEY;
-const geoApiKey = process.env.GEO_API_KEY;
+const weatherApiKey = "089ef4cf886f48aa9fa963d90a5a2893";
+const geoApiKey = "965ba57ca5764dd69be5bc8a016e3d4d";
 
 let debounceTimer;
 
 document.addEventListener('DOMContentLoaded', () => {
-    backgroundVideo.src = 'https://videos.pexels.com/video-files/4782047/4782047-hd.mp4';
+    backgroundVideo.src = 'https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
 });
 
 cityInput.addEventListener("input", () => {

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="bg-gray-950 text-gray-100">
-  <video id="background-video" autoplay muted loop playsinline></video>
+  <video id="background-video" autoplay muted loop playsinline class="absolute opacity-50 h-full w-full "></video>
   <div class="overlay"></div>
   <main class="relative z-10 flex flex-col items-center justify-center min-h-screen p-4">
     <div class="w-full max-w-2xl text-center">
@@ -18,7 +18,7 @@
             Search
           </button>
         </form>
-        <div id="suggestions" class="suggestions-list absolute top-full left-0 right-0 bg-gray-900 text-gray-100 rounded-b-lg border border-gray-700 shadow-lg z-20 mt-1 max-h-60 overflow-y-auto"></div>
+        <div id="suggestions" class="suggestions-list absolute top-full left-0 right-0 bg-gray-900 text-gray-100 rounded-b-lg border border-gray-700 shadow-lg z-20 mt-4 max-h-60 overflow-y-auto"></div>
       </div>
       <div class="card mt-10">
         <p class="text-2xl">Enter a city to get the forecast</p>
