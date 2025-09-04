@@ -126,25 +126,25 @@ function displayWeatherInfo(data) {
 }
 
 function updateBackgroundVideo(weatherId) {
-    let videoUrl = 'https://videos.pexels.com/video-files/4782047/4782047-hd.mp4';
+    let videoUrl = 'https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
     switch (true) {
         case (weatherId >= 200 && weatherId < 300):
-            videoUrl = 'https://videos.pexels.com/video-files/6830631/6830631-hd.mp4';
+            videoUrl = 'https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
             break;
         case (weatherId >= 300 && weatherId < 600):
-            videoUrl = 'https://videos.pexels.com/video-files/4056633/4056633-hd.mp4';
+            videoUrl = 'https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
             break;
         case (weatherId >= 600 && weatherId < 700):
-            videoUrl = 'https://videos.pexels.com/video-files/3253459/3253459-hd.mp4';
+            videoUrl = 'https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
             break;
         case (weatherId >= 700 && weatherId < 800):
-            videoUrl = 'https://videos.pexels.com/video-files/2759491/2759491-hd.mp4';
+            videoUrl = 'https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
             break;
         case (weatherId === 800):
-            videoUrl = 'https://videos.pexels.com/video-files/853874/853874-hd.mp4';
+            videoUrl ='https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
             break;
         case (weatherId > 800):
-            videoUrl = 'https://videos.pexels.com/video-files/4782047/4782047-hd.mp4';
+            videoUrl = 'https://videos.pexels.com/video-files/33525363/14257846_2560_1440_30fps.mp4';
             break;
     }
     if (backgroundVideo.src !== videoUrl) {
